@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "build": "echo 'No build step required for Node.js API'"
+  "start": "node dist/main.js",
+  "dev": "nest start --watch"
   },
   "keywords": [],
   "author": "",
